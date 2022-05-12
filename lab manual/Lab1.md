@@ -8,23 +8,23 @@ This lab also uses Git for source control. We may also utilize Github Desktop to
 ## Procedure:
 1.  We Download Python3, pip or pip3, Sqlite, DBeaver community, Django, VS code, Github account.
 2.  Open command use to check whether python is install or not.
-Syntax:
+<br/>Syntax:<br/>
  python3 –version
 3.  Initialize Django project to create the user 
-Syntax:
-django-admin startproject ecommerce_ashna
+<br/>Syntax:<br/>
+django-admin startproject ecommerce_ashna <br/>
 cd ecommerce_ashna
 4.  Migrating and creating users
-Syntax:
- ecommerce_ashna
+<br/>Syntax:<br/>
+ ecommerce_ashna<br/>
 python manage.py migrate
 in this process we got link for server for 127.0.0.1:8000
 5.  Verify the admin side using 127.0.0.1:8000\admin
-Syntax:
+<br/>Syntax:<br/>
 python manage.py runserver
 6.  Database verification and CRUD operations:
-Syntax:
-python manage.py startapp product_module
+<br/>Syntax:<br/>
+python manage.py startapp product_module<br/>
 python manage.py runserver
 7.  Source Control
 Lastly, for source control, we utilized Git. We built a repository called ecommerce ashna and a markdown file called "lab1.md" that contains this document. The code and folder were then committed and published to the repository. The repository may now be found at: https://github.com/anhsaa/ecommerce_lab1
