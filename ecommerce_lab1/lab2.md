@@ -6,15 +6,15 @@
 
 ### Introduction
 
-In our first lab, we created a product module. Now, we add a brand, product and category in the product module which has a structure of the er diagram as shown below:
+In this lab,We constructed a product module. Now we'll add a brand, a product, and a category to the product module, which follows the following diagram structure:
 
-![Er diagram, the product module](/images_lab2/ER-product_module.png)
+![Er diagram, the product module](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/285961942_572298934250985_7888553134652948235_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=WgUp0p4hx6YAX-QSRz2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVLyTKVY33L0u29xZ_T-YqtBcWzNU-SRxmvPC2cFeNu6Eg&oe=62C3A3AB)
 ### Objectives
 
-- To add Product, Brand and Category models
-- To get more information about adding models and how models.py works
-- To get more information about the admin.py, models.py as well as other files that django framework provides
-- To perform CRUD operations on all three models
+- To include models for products, brands, and categories.
+- To learn more about how to create models and how models.py works 
+ - To learn more about the admin.py, models.py, and other files provided by the Django framework 
+ - To execute CRUD operations on all three models
 
 ### Procedure
 
@@ -73,26 +73,22 @@ In our first lab, we created a product module. Now, we add a brand, product and 
 
 - **Adding the models Brand, Category and Product**
 
-![](/images_lab2/three_models.png)
+![](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/286075453_4900252943436290_8366396888011893027_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=YzcpAK9lOeMAX-FsWCi&_nc_oc=AQk8JOVqp7I87z8DM5zPr7OkvV7v3S-rgzfLXfXSAPUZUyHG4ImTsa_Ijpha9RleNatuBtizuIVb6LwOGAlr8Jat&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVIo6oZ5BgmqokYUopQSpheJCJLajmeuhA5Qcy2q336WFQ&oe=62C2FCB2)
 
 - **The Brand model**
 
-![](/images_lab2/brand.png)
+![](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/285062099_546984270264834_7721264771442810466_n.png?stp=dst-png_s526x296&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=tUxskWp9QuMAX8Egp2C&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVKrmQXcVwbW5rXQnuOpFV2tyD83QMaZvRwS_97Qz74LcQ&oe=62C230E2)
 
-![](/images_lab2/brand_detailed.png)
 
 - **The Category model**
 
-![](/images_lab2/category.png)
+![](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/285243843_709451920307452_5056620266487673530_n.png?stp=dst-png_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=git5HdanUrYAX8bUM3q&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVJPzCYB5sK_4EXkIilhCE4KUM3zoJLbKmTkDUl7QBg6qA&oe=62C3B870)
 
-![](/images_lab2/category_detailed.png)
 
 - **The Product model**
 
-![](/images_lab2/product.png)
+![](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/285768640_1220040992075177_4758745311887278860_n.png?stp=dst-png_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=bxknTjEw6rkAX9Qwmwo&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVLjga9wKyLGWC8d91IfgsfRLZmTmiClYzRZkVHafYMrrg&oe=62C25E5C)
 
-![](/images_lab2/productdetailed.png)
 
 ### Conclusion
-
-Therefore, in our third lab we created the models Brand, Category and Product for our ecommerce site. All the three models inherits models.Model. The product and brand, category model are related to each other through one to many relationship. We have also used different data types provided by django. 
+As a result, we constructed the Brand, Category, and Product models for our ecommerce site in our lab. Models are inherited by all three models. Model. The product and brand, as well as the category model, are linked by a one-to-many connection. We've also made advantage of django's many data kinds.
