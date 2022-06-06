@@ -1,5 +1,5 @@
 
-## Lab 2 : Adding Brand, Category and Product
+## Lab 3 : Adding image in a product
 
 
 
