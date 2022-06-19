@@ -12,14 +12,12 @@
  </li>
  {% for category in categories %}
  <li class="nav-item">
- <a class="nav-link text-dark" 
-href="/?category={{category.id}}">{{category.name}}</a>
+ <a class="nav-link text-dark" href="/?category={{category.id}}">{{category.name}}</a>
  </li>
  {% endfor %}
  {% for brand in brands %}
  <li class="nav-item">
-    <a class="nav-link text-dark" 
-    href="/?brand={{brand.id}}">{{brand.name}}</a>
+    <a class="nav-link text-dark" href="/?brand={{brand.id}}">{{brand.name}}</a>
      </li>
      {% endfor %}
      </ul>
@@ -41,15 +39,12 @@ href="/?category={{category.id}}">{{category.name}}</a>
      <div class="row border bg-light">
      <div class="col-md-4">
      <div class="text-center">
-     <img src="{{ product.image_url }}" style="height:200px; 
-    width:auto;" alt="{{ product.name }}">
+     <img src="{{ product.image_url }}" style="height:200px; width:auto;" alt="{{ product.name }}">
      </div>
      </div>
      <div class="col-md-3">
-     <span class="btn btn-danger disabled">{{ product.brand.name 
-    }}</span>
-     <span class="btn btn-info disabled">{{ product.category.name 
-    }}</span>
+     <span class="btn btn-danger disabled">{{ product.brand.name}}</span>
+     <span class="btn btn-info disabled">{{ product.category.name }}</span>
      <h3>{{ product.name }}</h3>
      <h4 class="bold text-secondary">
      <strong>NRs. {{ product.price }}</strong>

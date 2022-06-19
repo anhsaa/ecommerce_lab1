@@ -1,4 +1,12 @@
 from django.shortcuts import render
+from product_module.models import Category, Product, Brand
+
+def test(request):
+   return render(request, 'test.html',{})
+
+def index1(request):
+   return render(request, 'index1.html',{})
+
 def index(request):
    if request.method == "GET":
       category_id = request.GET.get("category")
