@@ -172,7 +172,7 @@ type="submit" data-toggle="modal" data-target="#cart-model"><i class="fa fashop
  </tr>
  <tr>
  <td>Category</td>
- <td>{{ product.category.name }}</td>
+ <td>{{ product.category.name }}</td>a
  </tr>
  <tr>
  <td>Registered On</td>
