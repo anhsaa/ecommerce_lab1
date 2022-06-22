@@ -195,7 +195,7 @@ type="submit" data-toggle="modal" data-target="#cart-model"><i class="fa fashop
 {% endblock %}
 
 ```
-- **From the project “product_module” open “views.py” and add the code as below for search operation (GET and POST) **
+- **From the project “product_module” open “views.py” and add the code as below for search operation (GET and POST)**
 
 ```
   from django.db.models import Q
@@ -278,4 +278,4 @@ python manage.py runserver
 
 
 ### Conclusion
-As a result, we added search in Product models for our ecommerce site in our lab. Models are inherited by all three models. Model. 
+As a result, we added search in Product models for our ecommerce site in our lab. Models are inherited by all three models.
