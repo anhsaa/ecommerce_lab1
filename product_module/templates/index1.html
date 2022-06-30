@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+   {% extends "base.html" %}
+   {% block title %} Search {% endblock %}
+   {% block header %} Search Product {% endblock %}
+   {% block content %}
    {% load static %}
    <head>
       <!-- Basic -->
@@ -1012,4 +1016,5 @@
       <!-- custom js -->
       <script src="js/custom.js"></script>
    </body>
+   {% endblock %}
 </html>

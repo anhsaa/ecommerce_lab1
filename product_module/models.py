@@ -31,3 +31,13 @@ class Product(models.Model):
     image_tag.short_description = "Product"
     def __str__(self):
       return self.name
+
+
+      ...
+from django.contrib.auth.models import User
+...
+class CartItem(models.Model):
+ user = models.ForeignKey(User , on_delete=models.CASCADE)
+ product = models.ForeignKey(Product, on_delete=models.CASCADE)
+ quantity = models.IntegerField()
+ entered_on = models.DateTimeField()
