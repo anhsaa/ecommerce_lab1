@@ -1,5 +1,5 @@
 
-## Lab 2 : Adding Brand, Category and Product
+## Lab 1 : Introduction
 
 
 
@@ -10,7 +10,7 @@ For this lab, we implement a variety of frameworks and platforms. The IDE was Vi
 This lab also uses Git for source control. We may also utilize Github Desktop to commit and push our work to a GitHub repository. When that repository is made public, everyone can examine it.
 
 
-![Er diagram, the product module](https://scontent.fktm3-1.fna.fbcdn.net/v/t1.15752-9/285961942_572298934250985_7888553134652948235_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=WgUp0p4hx6YAX-QSRz2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fktm3-1.fna&oh=03_AVLyTKVY33L0u29xZ_T-YqtBcWzNU-SRxmvPC2cFeNu6Eg&oe=62C3A3AB)
+
 ### Objectives
 
 •	To prepared an environment to run and compile the project.

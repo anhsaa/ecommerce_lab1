@@ -1,7 +1,8 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Brand, Category, Product
+from .models import Brand, Category, Product,CartItem
+
 
 
 class BrandAdmin(admin.ModelAdmin):
@@ -32,3 +33,6 @@ class Meta:
     model = Product
 
 admin.site.register(Product, ProductAdmin)
+
+
+admin.site.register(CartItem)

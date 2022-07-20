@@ -13,7 +13,7 @@
          </h2>
       </div>
       
-      <div  class="'row">
+      <div  class="row">
          {% for product in products %}   
          <div class="col-sm-6 col-md-4 col-lg-4">
             <div class="box">
@@ -23,7 +23,13 @@
                      Pant
                      </a>
                      <a href="" class="option2">
-                     Buy Now
+                        <form class="d-flex" action="/cart" method="GET">
+                           <!-- Default input -->
+                           <input type="hidden" name="id" value="{{product.id}}" />
+                           <input type="hidden" name="qty" value="1" aria-label="Search" class="form-control" style="width: 100px">
+                           <button id="btn-add-to-cart" class="btn btn-primary btn-md" type="submit" data-toggle="modal" data-target="#cart-model"><i class="fa fashopping-cart" aria-hidden="true"></i> Add to cart</button>
+                        </form>
+                    
                      </a>
                   </div>
                </div>
